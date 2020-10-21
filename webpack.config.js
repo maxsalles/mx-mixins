@@ -1,8 +1,8 @@
 const path = require('path')
 
 const library = {
-  name: 'myLibraryName',
-  version: '0.1.0'
+  name: 'MXMixins',
+  version: '1.0.0'
 }
 
 module.exports = (_, { mode }) => {
