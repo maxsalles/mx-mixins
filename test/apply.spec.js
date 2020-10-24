@@ -21,7 +21,7 @@ describe('apply', () => {
       expect(mixin).toBeCalledWith(Class)
       expect(Object.getOwnPropertyDescriptor(mixed, APPLIED_MIXIN_PROPERTY)).toEqual({
         value: mixin,
-        writable: true,
+        writable: false,
         configurable: false,
         enumerable: false
       })
