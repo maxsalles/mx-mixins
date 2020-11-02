@@ -1,21 +1,19 @@
 const path = require('path')
 
 const library = {
-  name: 'MXMixins',
-  version: '1.0.0'
+  name: 'mixins',
+  version: '0.1.0'
 }
 
-module.exports = (_, { mode }) => {
-  const filename = (
-    `${library.name}-${library.version}${ mode === 'production' ? '.min' : '' }.js`
-  )
+module.exports = () => {
+  const filename = `${library.name}.min.js`
 
   return {
     entry: './src/index.js',
     devtool: 'inline-source-map',
 
     output: {
-      path: path.resolve('dist'),
+      path: path.resolve('dist', 'mx', library.version),
       filename,
       library: library.name,
       libraryTarget: 'umd',

@@ -1,6 +1,6 @@
 {
-  "name": "mx-mixins",
-  "version": "1.0.0",
+  "name": "@mx/mixins",
+  "version": "0.1.0",
   "description": "Mixins infrastructure for JavaScript",
   "main": "src/index.js",
   "files": [
@@ -12,13 +12,13 @@
     "test:coverage": "jest --coverage --colors",
     "lint": "./node_modules/.bin/standard \"src/**/*.js\"",
     "lint:fix": "./node_modules/.bin/standard --fix \"src/**/*.js\"",
-    "build:watch": "./node_modules/.bin/standard \"src/**/*.js\" && webpack -w --mode development",
-    "build:prod": "./node_modules/.bin/standard \"src/**/*.js\" && webpack --mode production && webpack --mode production"
+    "build": "webpack --mode production"
   },
   "keywords": [
+    "mixin",
     "mixins"
   ],
-  "author": "Max Salles (herond12@gmail.com)",
+  "author": "Max Salles <herond12@gmail.com>",
   "license": "MIT",
   "jest": {
     "transform": {
