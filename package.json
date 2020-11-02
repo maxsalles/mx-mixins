@@ -14,6 +14,10 @@
     "lint:fix": "./node_modules/.bin/standard --fix \"src/**/*.js\"",
     "build": "webpack --mode production"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxsalles/mx-mixins.git"
+  },
   "keywords": [
     "mixin",
     "mixins"
