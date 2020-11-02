@@ -1,5 +1,5 @@
 {
-  "name": "@mx/mixins",
+  "name": "@mx-js/mixins",
   "version": "0.1.0",
   "description": "Mixins infrastructure for JavaScript",
   "main": "src/index.js",
