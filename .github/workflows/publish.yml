@@ -23,6 +23,7 @@ jobs:
         with:
           tag_name: "v%s"
           tag_message: "v%s"
+          workspace: "."
           publish_command: "npm"
           commit_pattern: "^release (\\S+)"
         env:
