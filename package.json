@@ -1,6 +1,6 @@
 {
   "name": "@mx-js/mixins",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Mixins infrastructure for JavaScript",
   "main": "src/index.js",
   "files": [
