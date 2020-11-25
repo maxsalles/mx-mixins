@@ -1,19 +1,16 @@
 const path = require('path')
 
-const library = {
-  name: 'mixins',
-  version: '0.2.0'
-}
+const library = { name: 'mixins' }
 
 module.exports = () => {
-  const filename = `${library.name}.min.js`
+  const filename = `mx.${library.name}.min.js`
 
   return {
     entry: './src/index.js',
     devtool: 'inline-source-map',
 
     output: {
-      path: path.resolve('dist', 'mx', library.version),
+      path: path.resolve('dist'),
       filename,
       library: library.name,
       libraryTarget: 'umd',
