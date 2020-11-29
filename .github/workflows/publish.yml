@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           registry-url: https://registry.npmjs.org/
-          scode: "@mx-js"
+          scope: "@mx-js"
       - name: Install modules
         run: npm install
       - name: Run tests
