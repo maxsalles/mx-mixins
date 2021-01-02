@@ -15,13 +15,13 @@ You will need [Node.js](https://nodejs.org/) **version 8+**.
 npm:
 
 ```
-npm install @mx/mixins
+npm install @mx-js/mixins
 ```
 
 yarn:
 
 ```
-yarn add @mx/mixins
+yarn add @mx-js/mixins
 ```
 
 ## Usage
