@@ -4,7 +4,7 @@
   "description": "Mixins infrastructure for JavaScript",
   "main": "src/index.js",
   "files": [
-    "./src"
+    "src/**/*"
   ],
   "scripts": {
     "test": "jest",
